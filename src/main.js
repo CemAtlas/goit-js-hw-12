@@ -1,6 +1,6 @@
 import './css/styles.css';
-import { fetchImages, resetPage } from './js/pixabay-api.js';
-import { renderGallery, clearGallery } from './js/render-gallery.js';
+import { fetchImages, resetPage } from './pixabay-api.js';
+import { renderGallery, clearGallery } from './render-gallery.js';
 
 const form = document.querySelector('#search-form');
 const gallery = document.querySelector('.gallery');
